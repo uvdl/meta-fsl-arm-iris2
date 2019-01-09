@@ -3,7 +3,7 @@ require recipes-bsp/u-boot/u-boot.inc
 DESCRIPTION = "u-boot for imx6 TinyRex/Rex boards."
 LICENSE = "GPLv2+"
 LIC_FILES_CHKSUM = "file://Licenses/README;md5=c7383a594871c03da76b3707929d2919"
-COMPATIBLE_MACHINE = "(imx6-openrexmax|imx6-iris2-dt6c|imx6-iris2-r0)"
+COMPATIBLE_MACHINE = "(imx6-openrexmax|imx6-iris2-dt6c|imx6-iris2-openrexmax|imx6-iris2-r0)"
 
 PROVIDES += "u-boot"
 
